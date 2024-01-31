@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+   <h1>Convert <%= params.fetch("first_currency") %> to <%= params.fetch("second_currency") %></h1>
+   <p>
+   1 <%= params.fetch("first_currency") %> equals <%= @converted %> <%= params.fetch("second_currency") %>
+   
+   </p>
+   <p><a href=/<%= params.fetch("first_currency") %> >Go Back</a></p>
+   
+
+</body>
+</html>
